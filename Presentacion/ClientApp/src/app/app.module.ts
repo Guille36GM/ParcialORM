@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { PersonaConsultaComponent } from './beneficiarios/persona-consulta/persona-consulta.component';
 import { PersonaRegistroComponent } from './beneficiarios/persona-registro/persona-registro.component';
 import { AppRoutingModule } from './app-routing.module';
+import { FiltroPersonaPipe } from './pipe/filtro-persona.pipe';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AppRoutingModule } from './app-routing.module';
     NavMenuComponent,
     HomeComponent,
     PersonaConsultaComponent,
-    PersonaRegistroComponent
+    PersonaRegistroComponent,
+    FiltroPersonaPipe
   ],
   imports: [
     ReactiveFormsModule,
