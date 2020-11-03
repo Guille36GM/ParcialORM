@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Usuarios\\Escritorio\\2020-1\\2020-2\\Programacion web\\ParcialORM\\Datos\\Datos.csproj": {}
+  },
+  "projects": {
+    "D:\\Usuarios\\Escritorio\\2020-1\\2020-2\\Programacion web\\ParcialORM\\Datos\\Datos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Usuarios\\Escritorio\\2020-1\\2020-2\\Programacion web\\ParcialORM\\Datos\\Datos.csproj",
+        "projectName": "Datos",
+        "projectPath": "D:\\Usuarios\\Escritorio\\2020-1\\2020-2\\Programacion web\\ParcialORM\\Datos\\Datos.csproj",
+        "packagesPath": "C:\\Users\\Guille\\.nuget\\packages\\",
+        "outputPath": "D:\\Usuarios\\Escritorio\\2020-1\\2020-2\\Programacion web\\ParcialORM\\Datos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Guille\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "D:\\Usuarios\\Escritorio\\2020-1\\2020-2\\Programacion web\\ParcialORM\\Entity\\Entity.csproj": {
+                "projectPath": "D:\\Usuarios\\Escritorio\\2020-1\\2020-2\\Programacion web\\ParcialORM\\Entity\\Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Usuarios\\Escritorio\\2020-1\\2020-2\\Programacion web\\ParcialORM\\Entity\\Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Usuarios\\Escritorio\\2020-1\\2020-2\\Programacion web\\ParcialORM\\Entity\\Entity.csproj",
+        "projectName": "Entity",
+        "projectPath": "D:\\Usuarios\\Escritorio\\2020-1\\2020-2\\Programacion web\\ParcialORM\\Entity\\Entity.csproj",
+        "packagesPath": "C:\\Users\\Guille\\.nuget\\packages\\",
+        "outputPath": "D:\\Usuarios\\Escritorio\\2020-1\\2020-2\\Programacion web\\ParcialORM\\Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Guille\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
